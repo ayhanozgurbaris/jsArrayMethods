@@ -13,8 +13,32 @@ console.log(numbers);
 
 const numbers2 = [24, 5, 10, 7, 9, 4, 105, 1];
 numbers2.sort(compareFunctions);
-
 function compareFunctions(a, b) {
     return a - b;
 }
 console.log(numbers2);
+//sayı sıralamak için doğrusu:
+//[ 1, 4, 5, 7, 9, 10, 24, 105]
+
+
+const products = [
+    {
+        name: 'laptop',
+        price: 1000
+    },
+    {
+        name: 'phone',
+        price: 500
+    },
+    {
+        name: 'desktop',
+        price: 1500
+    }
+]
+
+
+products.sort((a,b)=> {
+    return a.price - b.price
+})
+
+console.log(products)
