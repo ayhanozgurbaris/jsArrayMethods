@@ -1,3 +1,5 @@
+//eldeki veriyi array'e çevirir.
+
 const str = '1234567';
 
 const res = Array.from(str);

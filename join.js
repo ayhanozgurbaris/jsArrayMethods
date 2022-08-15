@@ -9,3 +9,14 @@ console.log(noSpace);
 const comma = countries.join(',');
 console.log(comma);
 // Romania,USA,Turkey
+console.log(typeof (comma));
+//string
+
+
+//from ile tekrar array'e çeviriyorum
+const arr = Array.from(comma);
+console.log(arr)
+// ['R', 'o', 'm', 'a', 'n','i', 'a', ',', 'U', 'S','A', ',', 'T', 'u', 'r','k', 'e', 'y']
+
+console.log(typeof (arr))
+//object

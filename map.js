@@ -1,3 +1,5 @@
+//dizi içerisindeki tüm elemanları bir işlemden geçirir
+
 const numbers = [1, 2, 3, 4, 5];
 
 const doubled = numbers.map(double)
@@ -13,7 +15,11 @@ function multiply(value, index, arr) {
 }
 
 console.log(doubled);
+// [ 2, 4, 6, 8, 10 ]
+
+
 console.log(multipled);
+// [ 0, 2, 6, 12, 20 ]
 
 const products = [
     {
@@ -36,3 +42,4 @@ const products = [
 const totalProductsValue = products.map(item => item.price * item.count);
 
 console.log(totalProductsValue);
+// [ 5000, 9000, 3500 ]
